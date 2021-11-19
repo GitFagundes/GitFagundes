@@ -23,7 +23,6 @@ app.get('*', (req, res) => {
 app.post('/', (req, res) => {
   res.send('Nome:'. request.body.user.name);
   res.send('email:'. request.body.user.email)
-  //Comment for update file
 })
 
 //Start Listening...
